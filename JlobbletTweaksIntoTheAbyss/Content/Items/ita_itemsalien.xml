@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Diff file="Mods/IntoTheAbyss/Content/Ruins/ita_itemsalien.xml" cleanup="true">
+    <!-- Physicorium shell -->
+    <replace sel="//Override/Item[@identifier='alienshell']/Projectile/@maxtargetstohit">4</replace>
+    <!-- Alien pistol -->
+    <replace sel="//Override/Item[@identifier='alienpistol']/@identifier">alienpistol</replace>
+    <!-- Physicorium coilgun bolt -->
+</Diff>

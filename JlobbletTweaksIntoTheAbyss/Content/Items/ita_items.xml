@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Diff file="Mods/IntoTheAbyss/Content/Items/ita_items.xml" cleanup="true">
+    <!-- Make medical items stack to 4 -->
+    <replace sel="//Override/Item[@identifier='antidama1']/@maxstacksize">4</replace>
+    <replace sel="//Override/Item[@identifier='antidama2']/@maxstacksize">4</replace>
+    <replace sel="//Override/Item[@identifier='opium']/@maxstacksize">4</replace>
+    <replace sel="//Override/Item[@identifier='radiotoxin']/@maxstacksize">4</replace>
+    <replace sel="//Override/Item[@identifier='pomegrenadeextract']/@maxstacksize">4</replace>
+    <replace sel="//Override/Item[@identifier='adrenaline']/@maxstacksize">4</replace>
+    <!-- Buff nuke damage to JT levels -->
+    <replace sel="//*[@identifier='nuclearshell']/Projectile/Attack">
+        <Affliction identifier="lacerations" strength="250"/>
+    </replace>
+    <replace sel="//*[@identifier='nuclearshell']/Projectile/StatusEffect[@type='OnUse']/Explosion">
+        <Affliction identifier="burn" strength="500"/>
+        <Affliction identifier="radiationsickness" strength="100"/>
+        <Affliction identifier="explosiondamage" strength="500"/>
+        <Affliction identifier="stun" strength="15"/>
+    </replace>
+</Diff>

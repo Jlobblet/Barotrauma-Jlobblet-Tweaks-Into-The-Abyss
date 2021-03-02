@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Jlobblet Tweaks + Into The Abyss Patch" path="Mods/JlobbletTweaksIntoTheAbyss/filelist.xml" corepackage="false" gameversion="0.12.0.3">
+    <Item file="Mods/JlobbletTweaksIntoTheAbyss/Content/Items/ita_items.xml"/>
+    <Item file="Mods/JlobbletTweaksIntoTheAbyss/Content/Items/ita_itemsalien.xml"/>
+</contentpackage>
