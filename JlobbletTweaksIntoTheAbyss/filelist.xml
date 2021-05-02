@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Jlobblet Tweaks + Into The Abyss Patch" path="Mods/JlobbletTweaksIntoTheAbyss/filelist.xml" corepackage="false" gameversion="0.12.0.3">
-    <Item file="Mods/JlobbletTweaksIntoTheAbyss/Content/Items/ita_items.xml"/>
-    <Item file="Mods/JlobbletTweaksIntoTheAbyss/Content/Items/ita_itemsalien.xml"/>
+<contentpackage name="Jlobblet Tweaks + Into The Abyss Patch" path="Mods/JlobbletTweaksIntoTheAbyss/filelist.xml" corepackage="false" gameversion="0.13.3.11" steamworkshopid="2410930451">
+    <Item file="Mods/Jlobblet Tweaks + Into The Abyss Patch/Content/Items/ita_items.xml"/>
+    <Item file="Mods/Jlobblet Tweaks + Into The Abyss Patch/Content/Items/ita_itemsalien.xml"/>
+    <Character file="Mods/Jlobblet Tweaks + Into The Abyss Patch/Content/Characters/Hammerhead/hammerhead.xml"/>
 </contentpackage>

@@ -5,4 +5,5 @@
     <!-- Alien pistol -->
     <replace sel="//Override/Item[@identifier='alienpistol']/@identifier">alienpistol</replace>
     <!-- Physicorium coilgun bolt -->
+    <replace sel="//Override/Item[@identifier='physicoriumbolt']/@identifier">physicoriumbolt</replace>
 </Diff>
